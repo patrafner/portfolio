@@ -1,0 +1,233 @@
+
+body, html{
+	background-color: #75a4f0;
+	margin: 0;
+	padding: 0;
+	display: block;
+	line-height: 28px;
+	height: 100%;
+	width: 100%;
+	font-family: 'Fira Sans';
+	font-size: 18px;
+
+	
+}
+body h1, h2, h3{
+	font-family: 'Encode Sans Expanded';
+
+
+}
+.navbar-inverse{
+	background-color: #282f5b;
+	border: none;
+	
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+
+.header-inner {
+	width: 100%;
+	background-color: #282f5b;
+	position: fixed;
+	z-index: 1;
+	top: 50px;
+	height: 130px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px #e6ecf5
+}
+
+
+#title {
+	padding-top: 100px;
+	padding-bottom: 10px;
+	font-size: 26px;
+	text-transform: capitalize;
+	text-align: center;	
+	margin-top: 100px;
+}
+
+
+
+
+
+.text{
+	margin: auto;
+	padding: 20px;
+	width:90%;
+	font-size: 22px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 1.5;
+	
+}
+
+
+.list{
+	width: 70%;
+	padding-left: 100px;
+	padding-right: 100px;
+	width: 100%;
+	
+
+}
+
+#list{
+	list-style-type: none;
+	margin-left: 10px;
+	padding-top: 20px;
+
+}
+.certif {
+	list-style-type: none;
+	margin-left: 40px;
+}
+
+.contacts {
+	list-style-type: none;
+	margin-left: 140px;
+	font-size: 26;
+	line-height: 32px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.email{
+	text-align: center;
+	margin:auto;
+	width: 90%;
+	color: #61e34d;
+	margin-bottom: 20px;
+	
+}
+
+.emailbtn{
+	margin:auto;
+	width: 20%;
+	font-size: 22px;
+	text-align: center;
+	background-color: #e07109;
+	
+	
+}
+
+
+.footer{
+	
+	background-color: #282f5b;
+	color: white;
+	font-family: 'Fira Sans';
+	width: 100%;
+	
+	
+
+}
+.footer h3{
+	font-family: 'Fira Sans';
+	padding-left: 135px;
+
+}
+
+.homefooter ul{
+	list-style-type: none;	
+	margin:auto;
+    padding-left:100px;
+    font-size: 18px;
+        
+}
+
+.homefooter {
+	padding-left: 50px;
+	width:50%;
+    float:left;
+    margin: auto;
+    padding-bottom: 10px; 
+    
+
+           	
+}
+
+.footer a:visited{
+	color:#e36e4d;
+}
+
+.footer a:link{
+	color:#e36e4d
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #262729;
+}
+
+a:link {
+	color: #edf0f2;
+}
+
+a:visited {
+	color: #616569;
+}
+
+a:hover{
+  font-weight: bold;
+  color: rgb(191,30,46)
+}
+
+
+
+.banner{
+	
+	display: flex;
+	margin: auto;
+	padding: auto;
+	padding-left: 100px;
+	background-color: #03e8fc;
+	font-size: 22px;
+	visibility: hidden;
+	margin-bottom: 20px;
+	width: 60%;
+	
+}
+
+
+.clicktoclose{
+	border-radius: 15px;
+	margin: auto;
+	margin-right: 100px;
+	display: flex;
+	
+		
+}
+
+.clicktoclose button  {
+  height: 10vh;
+  width: 15vh;
+  border-radius: 15px;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+  background-color: #115157;
+
+}

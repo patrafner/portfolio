@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Request Page</title>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+	
+
+</head>
+<body>
+<section class="content">
+	<header>
+		<div class="logos">
+			<a href="index.html"><img src="logo.png"></a>
+		</div>
+		<div class="links">
+			<a href="register.html">Sign In / </a><a href="request.html">Order</a>
+		</div>
+
+
+
+	</header>
+	<div class="title" >
+			<h1>Request Form</h1>
+	</div>
+
+	<div  class="h2request"><h2>Please fill up the form below</h2></div><br/>
+	
+	<form id="foodForm" method="post">
+	
+		<div class="request-form">
+			<h3>Name</h3>	
+		<input type="name" name="name" placeholder="Name"/>
+		</div>
+	
+		<div class="request-form">
+			<h3>Address</h3>	
+		<input type="email" name="email" placeholder="Email"/>
+		</div>
+	
+	<div class="request-form" >
+		<div><h2>Chose your style:</h2></div><br/>
+		<div class="radio-button">
+			<label for="style">Classic Restaurant</label><br/>
+			<input class="food-style" type='radio' name="rest-style" value="3"></input>
+		</div>
+		<div class="radio-button">
+			<label for="style">Premium Restaurant</label><br/>
+			<input class="food-style" type='radio' name="rest-style" value="5"></input>
+		</div>
+		<div class="radio-button">
+			<label for="style">Luxury Restaurant</label><br/>
+			<input class="food-style" type='radio' name="rest-style" value="10"></input>
+			<br/>
+		</div>
+	</div>
+		<div class="clear"></div>
+
+		<div class="request-form">
+			<h3>Restaurant</h3>
+			<input type="restaurant" name="restaurant" placeholder="Name"/>
+		</div>
+		<div class="clear"></div>
+		<div class="request-form" >
+			<div><h2>Chose your tip:</h2></div><br/>
+		<div class="radio-button">
+			<label for="style">10%</label><br/>
+			<input class="tip" type='radio' name="tip" value=".1"></input>
+		</div>
+		<div class="radio-button">
+			<label for="style">15%</label><br/>
+			<input class="tip" type='radio' name="tip" value=".15"></input>
+		</div>
+		<div class="radio-button">
+			<label for="style">20%</label><br/>
+			<input class="tip" type='radio' name="tip" value=".2"></input>
+			<br/>
+		</div>
+	</div>
+		<div class="clear"></div>
+		<div class="request-form">
+			<div class="total" >
+	 			<h3 style="display: block;">Total: $<span id="totalCost">0</span></h3>
+	 		</div>
+	 	</div>
+	 
+	
+	
+	<div class="button">
+		<button type="button">Request</button> 
+	</div>
+	</form>
+</section>
+
+<footer class="footer">
+
+	<div class="homefooter" >
+			<h3>Site Map</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="about.html">How it works</a></li>
+			<li><a href="request.html">Place an order</a></li>
+				
+		</ul>
+	</div>
+	<div class="homefooter" >
+			<h3>Legal</h3>
+		<ul>
+			<li>Privacy Policy</li>
+			<li>Terms and conditions</li>
+		</ul>
+	</div>
+	<div class="homefooter" >
+		<h3>Have Fun :)</h3>
+	</div>
+<!-- important to make the footer size correct-->
+<div class="clear"></div>
+	<section class="copy">
+			<p>&copy; 2015. All rights reserved. </p>
+			<p class="small">Version 1.0.9</p>
+			<br />
+	</section>
+</footer>	
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+

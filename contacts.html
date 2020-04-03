@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Encode Sans Expanded' rel='stylesheet'>
+	
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="firstpage.html"><span  aria-hidden="true"></span><i class="fas fa-laptop-code"></i> Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+    
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="https://resume-patrick.s3.amazonaws.com/resume.pdf" target="_blank">Resume</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="header-inner">
+<div class="title hidden-xs">
+		<h1>Patrick Muller</h1>
+		<h2>Portfolio</h2>
+</div>
+</div>
+<div class="container">
+   
+	<div class="row" >
+    <h1 id="title">Contact Information</h1>
+    
+    <ul class="contacts">
+      <li>Patrick Muller</li>
+      <li><i class="fas fa-at"></i> patrick.muler@gmail.com</li>
+      <li><i class="fas fa-phone"></i> (+1) 805-256-4443</li>
+      <li><i class="far fa-address-card"></i> 206 S Ventura St Unit #D</li>
+      <li><i class="fas fa-location-arrow"></i> 93023, Ojai, CA</li>
+      <li><i class="far fa-file"></i><a href="https://resume-patrick.s3.amazonaws.com/resume.pdf"> My Resume</a></li>
+    </ul>
+      
+  </div>
+
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 70%;  /* The width is the width of the web page */
+        margin: auto;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+       }
+    </style>
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var ojai = {lat: 34.4480, lng: -119.2429};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 10, center: ojai});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: ojai, map: map});
+}
+    </script>
+   <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqFxzIMG5sVz_ktFmtQB5WW18-F2HHp1k&callback=initMap">
+</script>
+</div>
+
+
+<footer class="footer">
+  <div class="title hidden-xs">
+  <h3>Contacts</h3>
+
+  <div class="homefooter" >
+      
+    <ul>
+      <li><a href=https://www.linkedin.com/in/patrick4cloud/ target="_blank">LinkedIn </a>- Patrick4cloud </li>
+      <li><a href=https://github.com/patrafner target="_blank">GitHub </a> - patrafner</li>
+      
+              
+    </ul>
+  </div>
+  <div class="homefooter" >
+    <ul>
+      <li><a href="mailto:patrick.muler@gmail.com">Email </a>  - patrick.muler@gmail.com</li>
+      <li><a href="https://resume-patrick.s3.amazonaws.com/resume.pdf" target="_blank">My Resume </a>Patrick Muller</li>
+    </ul>
+  </div>
+</div>
+  
+</footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>

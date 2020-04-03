@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+	<p id="greet">Salut</p>
+	<p id="color">Enjoy some great food</p>
+	
+
+
+</head>
+<body>
+	
+	<div id="banner" class="banner">
+		<p>Special offer for new sign ups: Save up to 20%</p>
+			<div class="clicktoclose">
+		<button  id="closebanner" onclick="closeBanner()">Click to close</button>
+			</div>
+	</div>
+
+	<header>
+		<div class="logos">
+			<a href="index.html"><img src="logo.png"></a>
+		</div>
+		<div class="links">
+			<a href="register.html">Sign In / </a><a href="request.html">Order</a>
+		</div>
+	</header>
+
+	
+	<div class="image">
+		<h2>Try a New Meal Today!</h2>
+		<!--<img src="http://showcase.revature.com/foodar100/images/03.jpg">-->
+	</div>
+	
+	
+	<div class="how-it-works">
+		<h2>How it works</h2>
+		<ol>
+			<li>Chose a restaurant</li>
+			<li>Pick a driver in your area</li>
+			<li>The food will be deliver to you</li>
+		</ol>
+<div class="clear"></div>
+		<div class="read-more">
+		<button type="button" ><a href="about.html"> Read More </a></button></div>
+	</div>
+	
+
+	<div class="zipcode">
+		<h3>Let's find a driver</h3>
+		<p>Serving Ojai and Ventura area</p>
+		<input id="userZip" type="zipcode" name="zipcode" maxlength="5" placeholder="Zipcode"/>
+		<input id="cityChecker" type="submit" value="Go!"/>
+		<div id="zipResult"></div>
+	</div>
+<div class="clear"></div>
+	
+
+	<div class="restaurant">
+		<div class="resto">
+			<div class="imageojai">
+		<img src="ojai.jpg" class="image1">		
+   		<div class="overlay">
+    	<div class="text">20% off</div>
+  		</div>
+			</div>
+		<p>Ojai Restaurants</p>
+		<p>Find a variety of restaurants. Italian, Mexican, Chinese, Japanese, French</p>
+		</div>
+
+		<div class="resto"><div class="imageojai">
+		<img src="ventura.jpg" class="image1">		
+   		<div class="overlay">
+    	<div class="text1">Up to 40% off</div>
+  		</div>
+			</div>
+		<p>Ventura Restaurants</p>
+		<p>Find a variety of restaurants. Italian, Mexican, Chinese, Japanese, French</p>
+	 	</div>
+	 </div>
+
+<div class="clear"></div>
+
+
+<footer class="footer">
+
+	<div class="homefooter" >
+			<h3>Site Map</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="register.html">Register</a></li>
+			<li><a href="about.html">How it works</a></li>
+			<li><a href="request.html">Place an order</a></li>
+				
+		</ul>
+	</div>
+	<div class="homefooter" >
+			<h3>Legal</h3>
+		<ul>
+			<li>Privacy Policy</li>
+			<li>Terms and conditions</li>
+		</ul>
+	</div>
+	<div class="homefooter" >
+		<h3>Have Fun :)</h3>
+	</div>
+<!-- important to make the footer size correct-->
+<div class="clear"></div>
+	<section class="copy">
+			<p>&copy; 2015. All rights reserved. </p>
+			<p class="small">Version 1.0.9</p>
+			<br />
+	</section>
+</footer>	
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+
+
+	
+
